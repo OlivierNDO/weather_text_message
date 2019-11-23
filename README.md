@@ -1,6 +1,6 @@
 Program that scrapes the 24 hour weather forecast every morning and sends a text message to a distribution list. This is what the text looks like:
 
-"""
+
 Weather Summary - Next 24 Hours:
 -------------------------------------------
 Temperature range:                 47 - 73 F
@@ -63,22 +63,21 @@ SUN 06:00 AM:
 
 SUN 07:00 AM: 
 47°, precipitation: 5%, Clear
-
-SUN 08:00 AM: 
-49°, precipitation: 5%, Sunny
-
-SUN 09:00 AM: 
-54°, precipitation: 0%, Sunny
-
-SUN 10:00 AM: 
-60°, precipitation: 0%, Sunny
-
-SUN 11:00 AM: 
-64°, precipitation: 0%, Sunny
-
-SUN 12:00 PM: 
-68°, precipitation: 0%, Sunny
-
-SUN 01:00 PM: 
-71°, precipitation: 0%, Mostly Sunny
-"""
+>
+>SUN 08:00 AM: 
+>49°, precipitation: 5%, Sunny
+>
+>SUN 09:00 AM: 
+>54°, precipitation: 0%, Sunny
+>
+>SUN 10:00 AM: 
+>60°, precipitation: 0%, Sunny
+>
+>SUN 11:00 AM: 
+>64°, precipitation: 0%, Sunny
+>
+>SUN 12:00 PM: 
+>68°, precipitation: 0%, Sunny
+>
+>SUN 01:00 PM: 
+>71°, precipitation: 0%, Mostly Sunny
