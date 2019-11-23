@@ -57,7 +57,7 @@ def send_text(msg : str, to_numbers : list,
               key_one = config_key_one,
               key_two = config_key_two):
     """Send text message"""
-    client = Client('AC3f73cc57cdf8d3b5c935351390186ffb', '0cce443b4b84337bd7dbc505947c1bae')
+    client = Client(key_one, key_two)
     for num in to_numbers:
         msg = client.messages.create(to = num, from_ = from_number, body = msg)
         print(msg)
